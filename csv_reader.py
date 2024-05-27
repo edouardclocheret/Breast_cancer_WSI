@@ -25,8 +25,6 @@ def select_patient_k_node_unsane(file_path, k) :
         for row in reader :
 
             if patient_number >=0 : 
-                
-                
                 if (line_count-1)%6>0 :
 
                     if row['stage']!= 'negative': 
